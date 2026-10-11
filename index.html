@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Accueil – La marelle du Kindi</title>
+<link rel="icon" href="/assets/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="ads"><div class="wrap">
+  <div class="ticket"><div><b>Tout débloquer : 0,50 € une seule fois</b><small>Paiement unique : tous les journaux actuels sont débloqués (hors futures éditions).</small></div>
+    <button class="btn alt" onclick="acheterTout()">Débloquer</button></div>
+  <div class="ticket"><div><b>La Marelle Plus : 0,50 € / an</b><small>Renouvelé automatiquement chaque année : tous les journaux, y compris les nouveaux.</small></div>
+    <button class="btn alt" onclick="abonnementPlus()">S'abonner</button></div>
+</div></div>
+<header><div class="wrap">
+  <a class="logo" href="/"><img src="/assets/logo.png" alt="La marelle du Kindi"></a>
+  <nav><a href="/" class=on><i>1</i>Accueil</a><a href="/journaux/"><i>2</i>Journaux</a><a href="/apropos/"><i>3</i>À propos</a><a href="/contact/"><i>4</i>Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<section class="hero">
+  <div>
+    <span class="pill">Journal du collège · Maroc</span>
+    <h1>Saute de case en case, <em>lis tout le collège.</em></h1>
+    <p>La marelle du Kindi, c'est le journal fait par les élèves : l'actualité, la culture, le sport et les souvenirs de notre année, une case après l'autre.</p>
+    <p><a class="btn" href="/journaux/">Voir les journaux</a> <a class="btn alt" href="/apropos/">Qui sommes-nous ?</a></p>
+  </div>
+  <div class="marelle" aria-hidden="true">
+    <div class="cinq"><b>5</b>Souvenirs</div>
+    <div><b>3</b>Culture</div><div><b>4</b>Sport</div>
+    <div class="un" style="background:var(--sun);color:#0b1a2e"><b style="color:#0b1a2e">2</b>Vie scolaire</div>
+    <div class="un"><b>1</b>Actualités</div>
+  </div>
+</section>
+<div class="panel">
+  <h2>Comment ça marche ?</h2>
+  <p>Chaque journal se débloque pour <b>0,50 €</b>. Ou débloquez tous les journaux actuels d'un coup, ou abonnez-vous à <b>La Marelle Plus</b> pour ne rien manquer, année après année.</p>
+</div>
+</div></main>
+<footer>© 2026 La marelle du Kindi · Le journal des collégiens, par les collégiens · Maroc</footer>
+<script src="/script.js"></script>
+</body>
+</html>
