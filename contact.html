@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact – La marelle du Kindi</title>
+<link rel="icon" href="/assets/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="ads"><div class="wrap">
+  <div class="ticket"><div><b>Tout débloquer : 0,50 € une seule fois</b><small>Paiement unique : tous les journaux actuels sont débloqués (hors futures éditions).</small></div>
+    <button class="btn alt" onclick="acheterTout()">Débloquer</button></div>
+  <div class="ticket"><div><b>La Marelle Plus : 0,50 € / an</b><small>Renouvelé automatiquement chaque année : tous les journaux, y compris les nouveaux.</small></div>
+    <button class="btn alt" onclick="abonnementPlus()">S'abonner</button></div>
+</div></div>
+<header><div class="wrap">
+  <a class="logo" href="/"><img src="/assets/logo.png" alt="La marelle du Kindi"></a>
+  <nav><a href="/"><i>1</i>Accueil</a><a href="/journaux/"><i>2</i>Journaux</a><a href="/apropos/"><i>3</i>À propos</a><a href="/contact/" class=on><i>4</i>Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<h1>Contact</h1>
+<p>Une question, une idée d'article ? Écris-nous.</p>
+<div class="panel">
+<form id="contact-form" novalidate>
+  <label>Votre nom<input name="nom" type="text" autocomplete="name" required></label>
+  <label>Votre e-mail<input name="email" type="email" autocomplete="email" required></label>
+  <label>Sujet<input name="sujet" type="text"></label>
+  <label>Message<textarea name="message" rows="6" required></textarea></label>
+  <p><button class="btn" type="submit">Envoyer</button></p>
+  <div id="statut" role="status" aria-live="polite"></div>
+</form>
+</div>
+</div></main>
+<footer>© 2026 La marelle du Kindi · Le journal des collégiens, par les collégiens · Maroc</footer>
+<script src="/script.js"></script>
+</body>
+</html>

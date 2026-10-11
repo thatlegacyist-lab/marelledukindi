@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Journaux – La marelle du Kindi</title>
+<link rel="icon" href="/assets/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="ads"><div class="wrap">
+  <div class="ticket"><div><b>Tout débloquer : 0,50 € une seule fois</b><small>Paiement unique : tous les journaux actuels sont débloqués (hors futures éditions).</small></div>
+    <button class="btn alt" onclick="acheterTout()">Débloquer</button></div>
+  <div class="ticket"><div><b>La Marelle Plus : 0,50 € / an</b><small>Renouvelé automatiquement chaque année : tous les journaux, y compris les nouveaux.</small></div>
+    <button class="btn alt" onclick="abonnementPlus()">S'abonner</button></div>
+</div></div>
+<header><div class="wrap">
+  <a class="logo" href="/"><img src="/assets/logo.png" alt="La marelle du Kindi"></a>
+  <nav><a href="/"><i>1</i>Accueil</a><a href="/journaux/" class=on><i>2</i>Journaux</a><a href="/apropos/"><i>3</i>À propos</a><a href="/contact/"><i>4</i>Contact</a></nav>
+</div></header>
+<main><div class="wrap">
+<h1>Les journaux</h1>
+<p>Chaque journal se débloque pour <b>0,50 €</b>, ou tous d'un coup avec les offres en haut de page.</p>
+<div id="liste">
+  <!-- Les journaux seront ajoutés ici. Exemple de carte :
+  <div class="panel"><h3>Titre</h3><button class="btn" onclick="acheterJournal('id')">Débloquer pour 0,50 €</button></div> -->
+  <div class="panel empty">
+    <div class="big">📭</div>
+    <h2>Actuellement vide</h2>
+    <p>Aucun journal n'est disponible pour le moment. Revenez bientôt !</p>
+  </div>
+</div>
+</div></main>
+<footer>© 2026 La marelle du Kindi · Le journal des collégiens, par les collégiens · Maroc</footer>
+<script src="/script.js"></script>
+</body>
+</html>
